@@ -2,6 +2,22 @@
 
 "Phonewords" are phone numbers that are represented using the letters on a telephone keypad instead of the digits. For example, the phone number 1-800-555-1234 could be represented as 1-800-555-BEER. This can be useful for businesses or organizations that want to create a memorable phone number that is easy for customers to remember.
 
+## Setup
+
+1. Clone this repository and cd into the project directory:
+
+    ```bash
+    git clone https://github.com/rileygrotenhuis/phonewords.git
+
+    cd phonewords
+    ```
+
+2. Install the Jest testing library and all of the node dependencies:
+
+    ```bash
+    npm install
+    ```
+
 ## Challenge
 
 Write a method called `phonewords` that takes in two parameters: the first being a phone number represented as a string (`phoneNumber`), and the second being a list of words represented as an array of strings (`words`). This algorithm should determine which of the words in the words array are contained in this phone number given by the `phoneNumber` string.

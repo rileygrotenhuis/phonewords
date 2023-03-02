@@ -1,0 +1,14 @@
+{
+  "name": "phonewords",
+  "version": "1.0.0",
+  "description": "Springfield Hack Session challenge for March 2, 2023",
+  "main": "phonewords.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Riley Grotenhuis",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
